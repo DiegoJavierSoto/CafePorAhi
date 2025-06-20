@@ -1,0 +1,57 @@
+ body {
+  background-color: #e9dda8;
+  font-family: 'Segoe UI', sans-serif;
+}  
+ 
+.hero-section {
+  position: relative;
+  background-image: url('../images/cafe1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 380px;
+  color: white;
+  z-index: 1;
+}
+
+.hero-section .overlay {
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(37, 37, 35, 0.45); /* negro al 80% */
+  z-index: 0;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.card-cafe {
+  transition: transform 0.2s ease;
+}
+
+.card-cafe:hover {
+  transform: translateY(-5px);
+}
+
+.lead{
+  font-weight: bold;
+  font-size: 900;
+  color: #fcf8fc;
+}
